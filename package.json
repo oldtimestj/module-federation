@@ -1,0 +1,11 @@
+{
+  "name": "module-federation",
+  "version": "1.0.0",
+  "description": "基于Module Federation的微前端Demo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
