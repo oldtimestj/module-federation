@@ -35,7 +35,8 @@ module.exports = {
       remotes: {
         // remoteVar 全局变量名
         remote: 'remoteVar@http://localhost:8080/remoteEntry.js',
-        host: 'hostVar@http://localhost:3000/remoteEntry.js',
+        host: 'hostVar@http://localhost:5000/remoteEntry.js',
+        app1: "app1@http://localhost:3000/remoteEntry.js",
       },
       shared: ['react', 'react-dom']
     })
