@@ -1,6 +1,7 @@
 import React from 'react';
 const RemoteNewsList = React.lazy(() => import('remote/NewsList'));
 const RemoteSliders = React.lazy(() => import('host/Sliders'));
+console.log('RemoteSliders', RemoteSliders);
 import Header from 'app1/Header';
 import { VueInReact } from 'vuera';
 const Header1 = VueInReact(Header);

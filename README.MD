@@ -4,5 +4,5 @@
 > **其中引用哪个项目的组件必须启动哪一个项目**
 ```
 npm install
-npm run serve
+npm run serve  // v-host项目 npm run start
 ```
