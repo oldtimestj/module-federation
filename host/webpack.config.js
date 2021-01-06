@@ -8,10 +8,10 @@ module.exports = {
   devtool: false,
   entry: './src/index.js',
   output: {
-    publicPath: 'http://localhost:5000/'  //公开访问目录
+    publicPath: 'http://localhost:9393/'  //公开访问目录
   },
   devServer: {
-    port: 5000
+    port: 9393
   },
   module: {
     rules: [
