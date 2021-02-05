@@ -34,7 +34,7 @@ module.exports = {
       name: 'remoteVar',  // 向外暴露的全局变量名
       filename: 'remoteEntry.js', //构建出的文件名
       exposes: {  // 暴露出给外部使用的组件
-        './NewsList': './src/NewsList11111'
+        './NewsList': './src/NewsListdevelop'
       },
       shared: ['react', 'react-dom']
     })
