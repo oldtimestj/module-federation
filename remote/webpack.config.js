@@ -41,8 +41,8 @@ module.exports = {
         host: 'hostVar@http://localhost:9393/remoteEntry.js',
         app1: "app1@http://localhost:3000/remoteEntry.js",
       },
-      exposes: {
-        './NewsList': './src/NewsList'
+      exposes: {  // 暴露出给外部使用的组件
+        './NewsList': './src/NewsList11111'
       },
       shared: ['react', 'react-dom']
     })
